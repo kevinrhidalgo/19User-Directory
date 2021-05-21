@@ -2,8 +2,29 @@ import React, { Component } from "react";
 import Form from "./Form";
 import EmployeeList from "./EmployeeList";
 import API from "../utils/API";
-import "../styles/Result.css";
-const MaxResults = 20;
+
+
+const styles = {
+
+  heading: {
+    background: "#3f51b5",
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: "1.2rem",
+    color: "white"
+  },
+
+ listName: {
+   background: "lightblue",
+},
+
+headerList: {
+display: "flex",
+justifycontent: "center"
+} 
+
+};
+
 
 class Container extends Component {
   state = {
@@ -93,7 +114,7 @@ class Container extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h2>Employee Directory</h2>
+          <div style={styles.heading}> <h2>Employee Directory</h2> </div>
           </div>
         </div>
         <div className="row">
@@ -106,19 +127,23 @@ class Container extends Component {
           </div>
         </div>
 
-        <div className="row">
-  
+        <div className="row" >
+        
           <table className="table">
+          <div style = {styles.headerList}>  
             <tr>
               <th scope="col">Photo</th>
               <th>First Name</th>
-             
               <th scope="col">Last Name </th>
               <th scope="col">Email</th>
               <th scope="col">Phone</th>
             </tr>
+            </div>
 
-           
+   
+   
+
+            <div style = {styles.listName}>  
             {[...this.state.result].map((item) =>
               <EmployeeList
                 picture={item.picture}
@@ -129,6 +154,7 @@ class Container extends Component {
                 key={item.key}
               />
             )}
+            </div>
 
           </table>
         </div>
