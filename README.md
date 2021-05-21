@@ -3,7 +3,7 @@
   ## Description 
 Using React.js an employee directory is created by the splitting up the applications code intos various componenets to combine and create a polished UI
 ## Application
-<img width="1090" alt="Screen Shot 2021-05-21 at 12 38 56 AM" src="https://user-images.githubusercontent.com/78196245/119192387-15bf3500-ba4e-11eb-80b3-2657c2577692.png">
+<img width="1125" alt="Screen Shot 2021-05-21 at 4 02 06 PM" src="https://user-images.githubusercontent.com/78196245/119192421-253e7e00-ba4e-11eb-9d47-f2c0071e2b44.png">
 
 ##GitPages
 <img width="1125" alt="Screen Shot 2021-05-21 at 4 02 06 PM" src="https://user-images.githubusercontent.com/78196245/119192348-017b3800-ba4e-11eb-9c36-ce32a8a0961b.png">
