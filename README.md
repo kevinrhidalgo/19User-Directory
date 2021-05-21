@@ -5,8 +5,8 @@ Using React.js an employee directory is created by the splitting up the applicat
 ## Application
 <img width="1090" alt="Screen Shot 2021-05-21 at 12 38 56 AM" src="https://user-images.githubusercontent.com/78196245/119082986-21b6e280-b9cd-11eb-8e7b-3e3fc0485ea6.png">
 
-##App GitPages
-https://kevinrhidalgo.github.io/19User-Directory/
+##GitPages
+<img width="1125" alt="Screen Shot 2021-05-21 at 4 02 06 PM" src="https://user-images.githubusercontent.com/78196245/119192348-017b3800-ba4e-11eb-9c36-ce32a8a0961b.png">
   ## Table of Contents 
 
   * [Installation](#installation)
