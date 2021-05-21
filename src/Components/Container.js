@@ -132,7 +132,7 @@ class Container extends Component {
           <table className="table">
           <div style = {styles.headerList}>  
             <tr>
-              <th scope="col">Photo</th>
+             
               <th>First Name</th>
               <th scope="col">Last Name </th>
               <th scope="col">Email</th>
